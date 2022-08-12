@@ -11,7 +11,7 @@ module RailsProject
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
     EasyBroker.configure do |config|
-      config.api_key = 'nbo1dcgf02w2cm61d5b34mtocmp4iy'
+      config.api_key = 'pltptvfb9ygo4w1xuqdkb88ulr0vgl'
     
       # Optionally change the root API URL
       # config.api_root_url = EasyBroker::STAGING_API_ROOT_URL
