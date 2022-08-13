@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "properties#index"
+  get "properties-json", to: "properties#json_response"
 end
