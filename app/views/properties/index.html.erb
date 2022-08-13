@@ -1,8 +1,18 @@
+<style>
+h1{
+  color: #343434;
+}
+div{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #F9F9F9;
+  background-color: #487ADE;
+}
+</style>
 <h1>Properties</h1>
-<ul>
   <% @properties.each do |property| %>
-    <li>
+    <div>
       <%= property.title %>
-    </li>
+    </div>
   <% end %>
-</ul>
