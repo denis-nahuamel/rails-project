@@ -3,7 +3,7 @@ class PropertiesController < ApplicationController
     client = EasyBroker.client
     @properties = client.properties.search
   end
-  def json_response 
+  def properties_json
     client = EasyBroker.client
     properties = []
     counter = 0;
